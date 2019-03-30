@@ -15,3 +15,7 @@
 - Emotion intensities in tweets: https://arxiv.org/pdf/1708.03696.pdf
 - Detecting emotions in twitter messages: http://web.cs.wpi.edu/~emmanuel/publications/PDFs/C30.pdf
 - SemEval winning team paper and model: https://arxiv.org/pdf/1804.06658.pdf, https://github.com/cbaziotis/ntua-slp-semeval2018
+
+5. Class Activation Maps (Visualization)
+- https://raghakot.github.io/keras-vis/visualizations/class_activation_maps/
+- https://arxiv.org/pdf/1710.11063.pdf

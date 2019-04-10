@@ -72,7 +72,11 @@ if __name__ == "__main__":
     word_embeddings = read_glove()
     g = Grouping()
     g.addTweetsToGroups()
-    v = sort_Tweets_by_rank(g, "trust", word_embeddings)
-    create_csv_with_given_group("trust", v)
+    names = ["anger","anticipation","love","sadness"]
+    for group_name in names:
+        print("starting ",group_name)
+        v = sort_Tweets_by_rank(g, group_name, word_embeddings)
+        create_csv_with_given_group(group_name, v)
+        print("Done: " + group_name)
 
     
